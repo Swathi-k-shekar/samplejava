@@ -5,7 +5,7 @@ public class Recurrsion {
     {
         Scanner sc= new Scanner(System.in);
         recur obj= new recur();
-        System.out.println("Enter your choice \n1. power of number \n2.fibinocci  of number\n3.Factorial\n4.Counting in reverse manner\n5.spelling printing of number\n6. Check if given array is sorted or not\n7. Subset construction ");
+        System.out.println("Enter your choice \n1. power of number \n2.fibinocci  of number\n3.Factorial\n4.Counting in reverse manner\n5.spelling printing of number\n6. Check if given array is sorted or not ");
         int choice= sc.nextInt();
         switch (choice)
         {
