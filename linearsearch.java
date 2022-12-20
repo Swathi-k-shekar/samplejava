@@ -1,5 +1,5 @@
 package com.company;
-import java.util.*;
+import java.util.Scanner;
 public class linearsearch {
     public static void main(String a[]){
         Scanner sc=new Scanner(System.in);
