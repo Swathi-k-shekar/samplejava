@@ -1,5 +1,7 @@
+// Binary and linear search in java
 package com.company;
 import java.util.Scanner;
+import java.util.Arrays;
 public class linearsearch {
     public static void main(String a[]){
         Scanner sc=new Scanner(System.in);
@@ -18,6 +20,9 @@ public class linearsearch {
             System.out.println("Element not found");
         else
         System.out.println(key+" is found at index: "+v);
+        // binary search in java
+        System.out.println(key + " found at index = "
++Arrays.binarySearch(a1,Key));
     }
 }
 class lsearch{
